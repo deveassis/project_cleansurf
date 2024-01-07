@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgba(112, 238, 245, 1) 14%, rgba(28, 182, 189, 1) 71%);
+    width: 100vw;
+}
+
+
+
+.container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#my-form {
+    border-radius: 23px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 37%, rgba(28, 182, 189, 1) 96%);
+}
+
+#password,
+#email{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: -10px;
+    padding: 11px;
+    border-radius: 10px;
+    border-color: #00a3aa;
+    border-style: dotted;
+    color: #00a3aa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-bottom: 15px;
+    
+
+}
+#lb-password,
+#lb-email{
+    color:#00a3aa;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 80%;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-login{
+    width: 90%;
+    align-items: center;  
+    flex-direction: column;
+    background: linear-gradient(360deg, rgba(0,170,210,1) 0%, rgba(133,228,223,1) 17%, rgba(0,212,255,1) 100%);
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: white;
+    border-style: hidden;
+    cursor: pointer;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+::placeholder{
+    text-transform: lowercase;
+    font-size: 12pt;
+    color: rgb(125, 125, 125);
+}
+
+#btn-reset{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: rgb(243, 83, 83);
+    width: 40%;
+    color: white;
+    text-align: center;
+    border-style: none;
+    border-color: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 16px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+#text-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #00a3aa;
+    text-align: center;
+}
+
+#p-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    padding-top: 11px;
+    
+}
+
+@media print {
+    .container {
+      width: auto;
+    }
+  }
+
+
